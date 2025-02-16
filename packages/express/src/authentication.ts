@@ -1,4 +1,4 @@
-import { RequestHandler, Request, Response } from 'express'
+import { RequestHandler, Request, Response } from 'ultimate-express'
 import { HookContext } from '@feathersjs/feathers'
 import { createDebug } from '@feathersjs/commons'
 import { authenticate as AuthenticateHook } from '@feathersjs/authentication'

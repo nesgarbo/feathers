@@ -1,4 +1,4 @@
-import express, { Express } from 'express'
+import express, { Express } from 'ultimate-express'
 import { Application as FeathersApplication, defaultServiceMethods } from '@feathersjs/feathers'
 import { routing } from '@feathersjs/transport-commons'
 import { createDebug } from '@feathersjs/commons'
@@ -18,7 +18,7 @@ import {
   urlencoded,
   query,
   Router
-} from 'express'
+} from 'ultimate-express'
 
 export {
   original,

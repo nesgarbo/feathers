@@ -1,6 +1,6 @@
 import path from 'path'
 import { NotFound, GeneralError } from '@feathersjs/errors'
-import { Request, Response, NextFunction, ErrorRequestHandler, RequestHandler } from 'express'
+import { Request, Response, NextFunction, ErrorRequestHandler, RequestHandler } from 'ultimate-express'
 
 const defaults = {
   public: path.resolve(__dirname, '..', 'public'),

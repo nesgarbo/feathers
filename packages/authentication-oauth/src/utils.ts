@@ -1,4 +1,4 @@
-import type { RequestHandler } from 'express'
+import type { RequestHandler } from 'ultimate-express'
 import type { Middleware, Application as KoaApplication } from '@feathersjs/koa'
 
 import type { ServiceOptions } from '@feathersjs/feathers'

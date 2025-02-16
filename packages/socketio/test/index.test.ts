@@ -8,7 +8,7 @@ import {
   ApplicationHookContext
 } from '@feathersjs/feathers'
 import express from '@feathersjs/express'
-import { Request, Response } from 'express'
+import { Request, Response } from 'ultimate-express'
 import omit from 'lodash/omit'
 import extend from 'lodash/extend'
 import { io } from 'socket.io-client'

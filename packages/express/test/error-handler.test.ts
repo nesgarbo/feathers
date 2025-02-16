@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars, @typescript-eslint/no-empty-function */
 import { strict as assert } from 'assert'
-import express, { Request, Response, NextFunction } from 'express'
+import express, { Request, Response, NextFunction } from 'ultimate-express'
 import axios from 'axios'
 import fs from 'fs'
 import { join } from 'path'

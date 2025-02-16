@@ -1,5 +1,5 @@
 import http from 'http'
-import express, { Express } from 'express'
+import express, { Express } from 'ultimate-express'
 import {
   Application as FeathersApplication,
   Params as FeathersParams,

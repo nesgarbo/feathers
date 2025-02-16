@@ -1,4 +1,4 @@
-import { Request, Response, RequestHandler, Router } from 'express'
+import { Request, Response, RequestHandler, Router } from 'ultimate-express'
 import { MethodNotAllowed } from '@feathersjs/errors'
 import { createDebug } from '@feathersjs/commons'
 import { http } from '@feathersjs/transport-commons'

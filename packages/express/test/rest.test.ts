@@ -3,7 +3,7 @@ import { strict as assert } from 'assert'
 import axios, { AxiosRequestConfig } from 'axios'
 
 import { Server } from 'http'
-import { Request, Response, NextFunction } from 'express'
+import { Request, Response, NextFunction } from 'ultimate-express'
 import { ApplicationHookMap, feathers, HookContext, Id, Params } from '@feathersjs/feathers'
 import { Service, restTests } from '@feathersjs/tests'
 import { BadRequest } from '@feathersjs/errors'
